@@ -1,0 +1,86 @@
+* {
+    background-color: rgb(21, 67, 21);
+}
+
+header {
+    text-align: center;
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+
+h1 {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    letter-spacing: 2px;
+    font-size:68px;
+    color:rgb(193, 232, 196);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 5px 8px;
+    border-color: black;
+    border: 5px solid;
+}
+
+
+button {
+    animation: wiggle 2s linear infinite;
+  }
+  
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
+  
+  button {
+    position: absolute;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    height: 4em;
+    width: 40%;
+    
+    background: green;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 1em;
+    transform-origin: 50% 5em;
+    cursor: pointer;
+  }
+
+p {
+    text-align: center;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    color:rgb(193, 232, 196);
+}
